@@ -1,0 +1,7 @@
+.elpaignore
+.github
+LICENSE
+Makefile
+makem.sh
+plz-event-source.org
+tests
