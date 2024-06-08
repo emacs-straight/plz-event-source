@@ -1,4 +1,4 @@
-This is doceQlX6w.info, produced by makeinfo version 6.8 from
+This is docApnWKG.info, produced by makeinfo version 6.8 from
 plz-event-source.texi.
 
 INFO-DIR-SECTION Emacs
@@ -7,7 +7,7 @@ START-INFO-DIR-ENTRY
 END-INFO-DIR-ENTRY
 
 
-File: doceQlX6w.info,  Node: Top,  Next: Installation,  Up: (dir)
+File: docApnWKG.info,  Node: Top,  Next: Installation,  Up: (dir)
 
 plz-event-source
 ****************
@@ -42,7 +42,7 @@ Credits
 
 
 
-File: doceQlX6w.info,  Node: Installation,  Next: Usage,  Prev: Top,  Up: Top
+File: docApnWKG.info,  Node: Installation,  Next: Usage,  Prev: Top,  Up: Top
 
 1 Installation
 **************
@@ -52,7 +52,7 @@ File: doceQlX6w.info,  Node: Installation,  Next: Usage,  Prev: Top,  Up: Top
 * GNU ELPA::
 
 
-File: doceQlX6w.info,  Node: GNU ELPA,  Up: Installation
+File: docApnWKG.info,  Node: GNU ELPA,  Up: Installation
 
 1.1 GNU ELPA
 ============
@@ -62,7 +62,7 @@ File: doceQlX6w.info,  Node: GNU ELPA,  Up: Installation
 installed in Emacs using the ‘package-install’ command.
 
 
-File: doceQlX6w.info,  Node: Usage,  Next: Credits,  Prev: Installation,  Up: Top
+File: docApnWKG.info,  Node: Usage,  Next: Credits,  Prev: Installation,  Up: Top
 
 2 Usage
 *******
@@ -78,7 +78,7 @@ plz-media-type (https://github.com/r0man/plz-media-type) library.
 * Examples::
 
 
-File: doceQlX6w.info,  Node: Examples,  Up: Usage
+File: docApnWKG.info,  Node: Examples,  Up: Usage
 
 2.1 Examples
 ============
@@ -90,12 +90,12 @@ language model.
        'post "https://api.openai.com/v1/chat/completions"
        :as `(media-types ((text/event-stream
                            . ,(plz-event-source:text/event-stream
-                               :handlers `((open . (lambda (event)
-                                                     (message "open: %s" event)))
-                                           (message . (lambda (event)
-                                                        (message "message: %s" event)))
-                                           (close . (lambda (event)
-                                                      (message "close: %s" event))))))))
+                               :events `((open . (lambda (event)
+                                                   (message "open: %s" event)))
+                                         (message . (lambda (event)
+                                                      (message "message: %s" event)))
+                                         (close . (lambda (event)
+                                                    (message "close: %s" event))))))))
        :body (json-encode
               '(("model" . "gpt-3.5-turbo")
                 ("messages" . [(("role" . "system")
@@ -110,7 +110,7 @@ language model.
                   ("Content-Type" . "application/json")))
 
 
-File: doceQlX6w.info,  Node: Credits,  Next: License,  Prev: Usage,  Up: Top
+File: docApnWKG.info,  Node: Credits,  Next: License,  Prev: Usage,  Up: Top
 
 3 Credits
 *********
@@ -123,7 +123,7 @@ File: doceQlX6w.info,  Node: Credits,  Next: License,  Prev: Usage,  Up: Top
 * Copyright assignment::
 
 
-File: doceQlX6w.info,  Node: Copyright assignment,  Up: Credits
+File: docApnWKG.info,  Node: Copyright assignment,  Up: Credits
 
 3.1 Copyright assignment
 ========================
@@ -137,7 +137,7 @@ who wish to do so may contact emacs-devel@gnu.org <emacs-devel@gnu.org>
 to request the assignment form.
 
 
-File: doceQlX6w.info,  Node: License,  Prev: Credits,  Up: Top
+File: docApnWKG.info,  Node: License,  Prev: Credits,  Up: Top
 
 4 License
 *********
@@ -152,9 +152,9 @@ Node: Installation866
 Node: GNU ELPA1001
 Node: Usage1262
 Node: Examples1704
-Node: Credits3210
-Node: Copyright assignment3476
-Node: License4063
+Node: Credits3198
+Node: Copyright assignment3464
+Node: License4051
 
 End Tag Table
 
