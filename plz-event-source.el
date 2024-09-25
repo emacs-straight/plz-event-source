@@ -5,16 +5,11 @@
 ;; Author: r0man <roman@burningswell.com>
 ;; Maintainer: r0man <roman@burningswell.com>
 ;; URL: https://github.com/r0man/plz-event-source
-;; Version: 0.1.1
+;; Version: 0.1.2-pre
 ;; Package-Requires: ((emacs "26.3") (plz-media-type "0.1.0"))
 ;; Keywords: comm, network, http
 
 ;; This file is part of GNU Emacs.
-
-;; It is temporarily vendored within the llm library.  Please DO NOT
-;; depend on it!  It is subject to change.  Once we think this package
-;; is stable, we will release it to GNU ELPA.  If no serious issues
-;; are found, we plan to do this in Q4 of 2024.
 
 ;;; License:
 
