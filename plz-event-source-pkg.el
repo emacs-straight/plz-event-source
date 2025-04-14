@@ -1,2 +1,2 @@
-;; Generated package description from plz-event-source.el  -*- mode: lisp-data; no-byte-compile: t -*-
-(define-package "plz-event-source" "0.1.3pre0.20250228.134816" "Plz Event Source" '((emacs "26.3") (plz-media-type "0.2.3")) :commit "79e726da2e697f99c8f1196e4badabac6ae3176b" :authors '(("r0man" . "roman@burningswell.com")) :maintainer '("r0man" . "roman@burningswell.com") :keywords '("comm" "network" "http") :url "https://github.com/r0man/plz-event-source")
+;; Generated package description from .el  -*- plz-event-sourceno-byte-compile: t -*-
+(define-package "plz-event-source" "0.1.4pre0.20250413.93107" "Plz Event Source" '((emacs "26.3") (plz-media-type "0.2.4")) :commit "de89214ce14e2b82cbfdc30e1adcf3e77b1f250a" :authors '(("r0man" . "roman@burningswell.com")) :maintainer '("r0man" . "roman@burningswell.com") :keywords '("comm" "network" "http") :url "https://github.com/r0man/plz-event-source")
