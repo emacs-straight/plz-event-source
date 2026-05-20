@@ -1,4 +1,4 @@
-This is doc2Pzy1i.info, produced by makeinfo version 6.8 from
+This is plz-event-source.info, produced by makeinfo version 7.1.1 from
 plz-event-source.texi.
 
 INFO-DIR-SECTION Emacs
@@ -7,7 +7,7 @@ START-INFO-DIR-ENTRY
 END-INFO-DIR-ENTRY
 
 
-File: doc2Pzy1i.info,  Node: Top,  Next: Installation,  Up: (dir)
+File: plz-event-source.info,  Node: Top,  Next: Installation,  Up: (dir)
 
 plz-event-source
 ****************
@@ -26,7 +26,7 @@ to handle server sent events.
 * Credits::
 * License::
 
-— The Detailed Node Listing —
+-- The Detailed Node Listing --
 
 Installation
 
@@ -42,7 +42,7 @@ Credits
 
 
 
-File: doc2Pzy1i.info,  Node: Installation,  Next: Usage,  Prev: Top,  Up: Top
+File: plz-event-source.info,  Node: Installation,  Next: Usage,  Prev: Top,  Up: Top
 
 1 Installation
 **************
@@ -52,7 +52,7 @@ File: doc2Pzy1i.info,  Node: Installation,  Next: Usage,  Prev: Top,  Up: Top
 * GNU ELPA::
 
 
-File: doc2Pzy1i.info,  Node: GNU ELPA,  Up: Installation
+File: plz-event-source.info,  Node: GNU ELPA,  Up: Installation
 
 1.1 GNU ELPA
 ============
@@ -62,7 +62,7 @@ File: doc2Pzy1i.info,  Node: GNU ELPA,  Up: Installation
 installed in Emacs using the ‘package-install’ command.
 
 
-File: doc2Pzy1i.info,  Node: Usage,  Next: Credits,  Prev: Installation,  Up: Top
+File: plz-event-source.info,  Node: Usage,  Next: Credits,  Prev: Installation,  Up: Top
 
 2 Usage
 *******
@@ -78,7 +78,7 @@ plz-media-type (https://github.com/r0man/plz-media-type) library.
 * Examples::
 
 
-File: doc2Pzy1i.info,  Node: Examples,  Up: Usage
+File: plz-event-source.info,  Node: Examples,  Up: Usage
 
 2.1 Examples
 ============
@@ -110,7 +110,7 @@ language model.
                   ("Content-Type" . "application/json")))
 
 
-File: doc2Pzy1i.info,  Node: Credits,  Next: License,  Prev: Usage,  Up: Top
+File: plz-event-source.info,  Node: Credits,  Next: License,  Prev: Usage,  Up: Top
 
 3 Credits
 *********
@@ -123,7 +123,7 @@ File: doc2Pzy1i.info,  Node: Credits,  Next: License,  Prev: Usage,  Up: Top
 * Copyright assignment::
 
 
-File: doc2Pzy1i.info,  Node: Copyright assignment,  Up: Credits
+File: plz-event-source.info,  Node: Copyright assignment,  Up: Credits
 
 3.1 Copyright assignment
 ========================
@@ -133,11 +133,11 @@ being distributed in GNU ELPA (https://elpa.gnu.org/).  Contributions to
 this project must follow GNU guidelines, which means that, as with other
 parts of Emacs, patches of more than a few lines must be accompanied by
 having assigned copyright for the contribution to the FSF.  Contributors
-who wish to do so may contact emacs-devel@gnu.org <emacs-devel@gnu.org>
-to request the assignment form.
+who wish to do so may contact emacs-devel@gnu.org
+<mailto:emacs-devel@gnu.org> to request the assignment form.
 
 
-File: doc2Pzy1i.info,  Node: License,  Prev: Credits,  Up: Top
+File: plz-event-source.info,  Node: License,  Prev: Credits,  Up: Top
 
 4 License
 *********
@@ -147,14 +147,14 @@ GPLv3
 
 
 Tag Table:
-Node: Top225
-Node: Installation866
-Node: GNU ELPA1001
-Node: Usage1262
-Node: Examples1704
-Node: Credits3198
-Node: Copyright assignment3464
-Node: License4051
+Node: Top234
+Node: Installation880
+Node: GNU ELPA1022
+Node: Usage1290
+Node: Examples1739
+Node: Credits3240
+Node: Copyright assignment3513
+Node: License4114
 
 End Tag Table
 
