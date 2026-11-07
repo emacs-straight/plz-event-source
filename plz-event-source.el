@@ -5,7 +5,7 @@
 ;; Author: r0man <roman@burningswell.com>
 ;; Maintainer: r0man <roman@burningswell.com>
 ;; URL: https://github.com/r0man/plz-event-source
-;; Version: 0.1.4-pre
+;; Version: 0.1.5-pre
 ;; Package-Requires: ((emacs "26.3") (plz-media-type "0.2.4"))
 ;; Keywords: comm, network, http
 
@@ -114,7 +114,7 @@
   "Regular expression matching the end of a line.")
 
 (defconst plz-event-source-parser--line-regexp
-  (rx (* not-newline) (or "\r\n" "\n" "\r"))
+  (rx (*? not-newline) (or "\r\n" "\n" "\r"))
   "Regular expression matching a line of the event source stream.")
 
 (defun plz-event-source-parser--parse-bom (line)
